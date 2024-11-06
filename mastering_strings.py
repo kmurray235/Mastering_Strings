@@ -1,0 +1,119 @@
+# Strings are imutible
+
+
+
+# String indexing
+word = "Coding Temple"
+print("\nString Indexing:")
+print(word[0])
+print(word[1])
+print(word[-1])
+print(word[-2])
+
+# Concatenation of strings
+greeting = "Why hello"
+name = "George"
+full_greeting = greeting + ", " + name + "!"
+print("\nConcatenation:")
+print(full_greeting)
+
+#prints the number 3
+print(1+2)
+
+#prints the number 12
+print("1" + "2")
+
+# Repeat strings with *
+laugh = "Ha" * 3
+print("\nString Repetition:")
+print(laugh)
+
+#Divider line
+print("-" * 20 )
+
+# Finding the length of a string
+phrase = "I'm not lazy, I'm on energy-saving mode."
+length_of_phrase = len(phrase)
+print("\nLength of Phrase:")
+print(length_of_phrase)
+
+# String slicing (substrings)
+language = "Slice me up!"
+print("\nString Slicing Examples:")
+print(language[0:4])  
+print(language[3:])
+print(language[3:9])  
+print(language[-5:])
+
+# Convert to uppercase and lowercase
+# Sanitizing data
+message = "Hello, Python!"
+print("\nUppercase and Lowercase:")
+print(message.upper()) 
+print(message.lower())
+
+#Removing whitespace fron start and end of string
+whitespace_string = "   Trim this!   "
+print("\nstrip() removes whitespace:")
+
+
+# Replace part of a string
+text = "I love Java!"
+print("\nReplace Example:")
+print(text.replace("Java", "Python"))
+print(text)
+
+#Spilt and join
+sentence = "Python rocks our world"
+words = sentence.split()
+print("\nSplit Example")
+print(words)
+print(words[0])
+
+joined_sentence = " ".join(words)
+print("\nJoin Example:")
+print(joined_sentence)
+
+# Check if a string starts or ends with a specific substring
+# Gives you bool results
+filename = "super_secret_file.txt"
+print("\nStartswith and Endswith:")
+print(filename.startswith("my"))  
+print(filename.startswith("super"))  
+print(filename.endswith(".txt"))
+
+# String formatting with .format()
+name = "Fred"
+age = 99
+print("\nString Formatting with .format():")
+print("My name is {} and I am {} years old.".format(name, age))
+
+# String formatting with f-strings
+game_genre = "action-adventure"
+game = "The Last of Us"
+print("\nString Formatting with f-strings:")
+print(f"My favorite game in the {game_genre} genre is \"{game}\".")
+
+# More string methods: finding a substring and counting occurrences
+long_text = "Python is powerful. Python is versatile. Python is everywhere!"
+print("\nFind and Count Examples:")
+print(long_text.find("Python"))   
+print(long_text.count("Python"))
+
+# Using slicing and immutability demonstration
+original_text = "Jython"
+fixed_text = "P" + original_text[1:]
+print("\nFixing Strings by Slicing:")
+print(f"Original text: {original_text}")
+print(f"Fixed text: {fixed_text}")
+
+# title and capitalize
+text = "hello world"
+print("\nTitle and Capitalize:")
+print(text.capitalize())  
+print(text.title())       
+
+# isdigit - Check if a string consists only of digits, 
+text = "12345"
+print("\nisdigit example:")
+print(text.isdigit())
