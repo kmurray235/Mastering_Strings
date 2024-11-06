@@ -1,6 +1,17 @@
-# Strings are imutible
+# Strings are immutable - they don't change
 
+# Creating strings with single and double quotes
+single_quote = 'Single quotes are great'
+double_quote = "So are double quotes"
+print(single_quote)
+print(double_quote)
 
+# Multi-line string using triple quotes
+multi_line = """This is a 
+string that
+spans multiple lines!"""
+print("\nMulti-line String:")
+print(multi_line)
 
 # String indexing
 word = "Coding Temple"
